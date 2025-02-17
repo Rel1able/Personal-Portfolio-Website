@@ -3,7 +3,7 @@ export default function NavBar() {
         <nav>
             <ul className="flex font-medium gap-8">
                 <li>About</li>
-                <li>Stack</li>
+                <li>Tech stack</li>
                 <li>Projects</li>
                 <li>Contact me</li>
             </ul>
