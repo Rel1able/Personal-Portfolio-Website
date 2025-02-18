@@ -1,5 +1,8 @@
 import Header from "./components/Header.tsx";
 import About from "./components/About.tsx";
+import TechStack from "./components/TechStack.tsx";
+import Projects from "./components/Projects.tsx";
+import Footer from "./components/Footer.tsx";
 
 function App() {
 
@@ -7,8 +10,13 @@ function App() {
 
   return (
     <>
-      <Header name={"Yaroslav Shchebovovk"}/>
-      <About description={description}/>
+      <Header name={"Yaroslav Shchebovovk"} />
+      <main>
+        <About description={description} />
+        <TechStack title={"My technology stack"} />
+        <Projects/>
+      </main>
+      <Footer/>
     </>
   )
 }
