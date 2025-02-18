@@ -9,10 +9,10 @@ type TechStackCardProps = {
 
 export default function TechStack({title}:TechStackProps) {
     return (
-        <div className="text-center">
+        <div id="skills" className="text-center">
             <h2 className="text-3xl font-medium">{title}</h2>
             <ul className="flex flex-wrap justify-center gap-4 mt-8  w-[80%] m-auto">
-                <TechStackCard technology={"Java Script"} img={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"} />
+                <TechStackCard technology={"JavaScript"} img={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"} />
                 <TechStackCard technology={"HTML"} img={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"} />
                 <TechStackCard technology={"CSS"} img={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"}/>
                 <TechStackCard technology={"ReactJS"} img={"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"}/>
