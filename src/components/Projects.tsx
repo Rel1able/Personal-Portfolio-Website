@@ -11,8 +11,8 @@ export default function Projects() {
     return (
         <div id="projects" className="text-center mt-8">
             <div>
-                <h1 className="text-3xl font-medium">Projects</h1>
-                <span className="text-gray-500">(Click on the image to see it live)</span>
+                <h1 className="text-3xl font-medium lg:text-4xl">Projects</h1>
+                <span className="text-gray-500 lg:text-2xl">(Click on the image to see it live)</span>
             </div>
             
 
@@ -32,26 +32,29 @@ export default function Projects() {
 
 function ProjectCard({title, description,img, link, sourceCode}: ProjectCardProps) {
     return (
-        <li className="grid place-content-center grid-cols-2 items-center mb-32">
-            <div className="text-center flex flex-col">
-                <h1 className="font-bold text-4xl">{title}</h1>
-                <p className="text-xl w-72 m-auto mt-2">{description}</p>
-                <a className="mt-6" href={sourceCode}>
-                    <span className="mt-6">(Click to view the source code)</span>
-                     <img className="w-8 m-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+        <li className="flex flex-col justify-center items-center mb-32">
+            <div className="text-center flex flex-col lg:grid grid-cols-2">
+                <div className="lg:flex justify-center items-center flex-col">
+                    <h1 className="font-bold text-xl sm:text-2xl lg:text-3xl xl:text-4xl">{title}</h1>
+                    <p className="text-xs mb-6 w-72 m-auto mt-2 sm:text-sm lg:text-lg xl:text-2xl" >{description}</p>
+                </div>
+                <div className="mr-4">
+                    <div className="border-2 border-gray-100 shadow-2xl">
+                    <a href={link}>
+                        <img className="hover:scale-105
+                    cursor-pointer rounded-2xl
+                    duration-300 transition-all
+                    object-contain lg:w-[40rem]" src={img} />
+                    </a>
+                </div>
+                <a className="mt-6 text-xs lg:text-lg xl:text-xl" href={sourceCode}>
+                    <img className="w-6 m-auto mt-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+                    <span className="mt-6 text-gray-500">(Click on the icon to see the source code)</span>
                 </a>
-           
-          
-            </div>
-            <div className="border-2 border-gray-100 shadow-2xl">
-                <a href={link}>
-                    <img className="hover:scale-105
-                 cursor-pointer rounded-2xl
-                  duration-300 transition-all
-                   object-contain max-w-128" src={img} />
-                </a>
+                </div>
                 
             </div>
+            
         </li>
     )
 }
