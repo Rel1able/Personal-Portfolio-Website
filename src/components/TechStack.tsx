@@ -41,7 +41,7 @@ export default function TechStack({title}:TechStackProps) {
 
 function TechStackCard({technology, img, description}: TechStackCardProps) {
     return (
-        <li className="border-2 p-4 border-gray-200 shadow-2xl rounded-2xl text-xl font-bold">
+        <li className="m-auto border-2 p-4 border-gray-200 shadow-2xl rounded-2xl text-xl font-bold">
             <img className="object-contain w-24" src={img}/>
             <h3>{technology}</h3>
             <p className="text-gray-500 font-normal">{description}</p>
