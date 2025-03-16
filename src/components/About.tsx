@@ -9,7 +9,7 @@ export default function About({description}: AboutProps) {
             <img className="object-contain
              rounded-[50%] w-48 xl:w-72" src="24.jpg" alt="picture of me" />
             <p className="font-medium
-                m-4 bg-gray-700
+                m-4 bg-gray-500
                 text-white px-8
                 py-4 rounded-xl sm:text-sm lg:text-xl xl:text-2xl">
                 {description}

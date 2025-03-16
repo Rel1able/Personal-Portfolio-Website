@@ -6,8 +6,7 @@ import Footer from "./components/Footer.tsx";
 
 function App() {
 
-  const description = "Hi, I'm Yaroslav, nice to meet you. My journey started at school when I discovered what programming is. Currently I am on my way to become a full-stack developer.";
-
+  const description = "Hi, I am Yaroslav. I am really passionate about programming and currently I am on my way to become a full stack developer.;"
   return (
     <>
       <Header name={"Yaroslav Shchebovovk"} />

@@ -17,12 +17,50 @@ export default function Projects() {
             
 
             <ul className="mt-8  flex justify-center flex-wrap">
-                <ProjectCard sourceCode="https://github.com/Rel1able/Shopping-Cart" link="https://shopping-cart47.netlify.app/" title="Shopping Cart" description="Projects that imitate online store on client side. Data about products is retrieved from Fake API. The project is created using React, ReactRouter and CSS." img="shopping-cart.png"/>
-                <ProjectCard sourceCode="https://github.com/Rel1able/Memory-Card" link="https://bleach-memory-card.netlify.app/" title="Bleach Memory Card" description="Memory card with characters from the anime Bleach. Don't click on the same card twice and complete all difficulty levels. Created with React and CSS." img="memory-card.png"/>
-                <ProjectCard sourceCode="https://github.com/Rel1able/CV-Application" link="https://cv-builder-app4.netlify.app/" title="CV Builder" description="CV Builder, built with ReactJS and CSS." img="cv-builder.png"/>
-                <ProjectCard sourceCode="https://rel1able.github.io/Battleship/" link="https://rel1able.github.io/Battleship/" title="Battleship" description="A classic Battleship game against the computer built with HTML CSS and JS" img="battleship.png" />
-                <ProjectCard sourceCode="https://rel1able.github.io/Weather-App/" link="https://rel1able.github.io/Weather-App/" title="Weather App" description="Get data about the weather in any place in the world. Project was built using HTML, CSS and JS" img="weather-app.png" />
-                <ProjectCard sourceCode="https://github.com/Rel1able/Todo-list" link="https://rel1able.github.io/Todo-list/" title="Todo-list" description="Create, edit, delete and read tasks with TodoList. Tasks are stored using local storage, so you will not lose access to them after reloading the page." img="todo-list.png"/>
+                <ProjectCard sourceCode="https://github.com/Rel1able/Inventory-Application"
+                    link="https://inventory-application-txvn.onrender.com/"
+                    title="Food Inventory App"
+                    description="My first backend mini-project written in express.js.
+                     It is connected to a PostgreSQL database and allows navigation between food categories and products.
+                      It also has CRUD operations on categories and products."
+                    img="inventory-app.png"
+                />
+                <ProjectCard sourceCode="https://github.com/Rel1able/Shopping-Cart"
+                    link="https://shopping-cart47.netlify.app/"
+                    title="Shopping Cart"
+                    description="Projects that imitate online store on client side.
+                     Data about products is retrieved from Fake API.
+                      The project is created using React, ReactRouter and CSS."
+                    img="shopping-cart.png" />
+                <ProjectCard sourceCode="https://github.com/Rel1able/Memory-Card"
+                    link="https://bleach-memory-card.netlify.app/"
+                    title="Bleach Memory Card"
+                    description="Memory card with characters from the anime Bleach.
+                     Don't click on the same card twice and complete all difficulty levels.
+                      Created with React and CSS."
+                    img="memory-card.png" />
+                <ProjectCard sourceCode="https://github.com/Rel1able/CV-Application"
+                    link="https://cv-builder-app4.netlify.app/"
+                    title="CV Builder"
+                    description="CV Builder, built with ReactJS and CSS."
+                    img="cv-builder.png" />
+                <ProjectCard sourceCode="https://rel1able.github.io/Battleship/"
+                    link="https://rel1able.github.io/Battleship/"
+                    title="Battleship"
+                    description="A classic Battleship game against the computer built with HTML CSS and JS"
+                    img="battleship.png" />
+                <ProjectCard sourceCode="https://rel1able.github.io/Weather-App/"
+                    link="https://rel1able.github.io/Weather-App/"
+                    title="Weather App"
+                    description="Get data about the weather in any place in the world.
+                     Project was built using HTML, CSS and JS"
+                    img="weather-app.png" />
+                <ProjectCard sourceCode="https://github.com/Rel1able/Todo-list"
+                    link="https://rel1able.github.io/Todo-list/"
+                    title="Todo-list"
+                    description="Create, edit, delete and read tasks with TodoList.
+                     Tasks are stored using local storage, so you will not lose access to them after reloading the page."
+                    img="todo-list.png" />
             </ul>
         </div>
         
